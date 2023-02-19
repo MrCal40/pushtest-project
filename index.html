@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+   <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cals Resume</title>
+</head>
+
+
+
+
+<p>Number of visitors: <span id="counter"></span></p>
+
+	<script>
+		// Replace API_GATEWAY_URL with your API Gateway endpoint URL
+		const API_GATEWAY_URL = "https://aaofhqcypg.execute-api.us-east-1.amazonaws.com/beta";
+
+		fetch(API_GATEWAY_URL)
+			.then(response => response.json())
+			.then(data => {
+				// Update the visitor counter with the number of visitors returned by the Lambda function
+				document.getElementById("counter").innerText = data.body;
+			})
+			.catch(error => {
+				console.log(error);
+			});
+	</script>
+
+
+<h1>Calvesta Campbell</h1>
+  <p style="font-weight: bold;"> Contact info: <p> Email address: calvesta.campbell@gmail.com
+      <a href="http://www.linkedin.com/in/calvesta-campbell" > https://linkedin.com </a>
+<p style="font-weight: bold;"> Professional:
+  <p>Summary: Seasoned manager with experience handling multiple technical teams with an emphasis on compliance and reporting while overseeing daily administrative operations to deliver an end product to clients that ensure strict timelines are met or exceeded while interfacing directly with client contacts to adopt a “whatever it takes” approach to satisfying expectations is currently looking for an opportunity to leverage existing experience and talent to take on larger challenges in an atmosphere that promotes professional and personal growth.
+ <p style="font-weight: bold;"> Skills: 
+<p> OS: Windows (XP, Vista, 7, 8.1 and 10), Linux)
+Hardware: PC’s, Video Cards, Sound Cards, Network Cards, Routers, Cabling (Twisted Pairs)
+Network: TCP/IP stack configuration, Basic network CMD (Ping, Ipconfig, tracert, etc.).
+Software: MS Office ‘03/’07/’13/’365 (Word, PowerPoint, Excel, Outlook); 
+
+ <p> Professional Experience:
+
+<p style="font-weight: bold;"> Hughes Network Systems, Enterprise Supervisor 2013 - present
+<p> &#x2022; Monitor calls and provided feedback during coaching sessions to individual agents.
+<p> &#x2022; Meet or exceeded KPIs such as AHT (average handle time), tickets time to close.  
+<p> &#x2022; Build reports for the assistance account manager to present.  
+<p> &#x2022; Assist with development and implementation of Employee work performance.  
+<p> &#x2022; Walk the floor and assist agents with technical questions and procedures. 
+<p> &#x2022; Participate in various client projects.
+
+ <p style="font-weight: bold;">Enterprise Support Engineer and Enterprise Support SME
+2011 – 2013 Hughes Network Systems
+<p> &#x2022; Provided technical support to large enterprise company help desk agents to maintain internet and
+network operation of over 1000 sites including clients such as Conoco Phillips, BP, McDonalds, Burger
+King, Sears, Murphy Oil, etc.  
+<p> &#x2022; Assisted network technicians with live troubleshooting of network devices such as DSL modems and
+routers by utilizing network commands to confirm connectivity between remote sites. 
+
+
+<p> &#x2022; Created and maintained trouble ticketing system with several ISP’s such as AT&amp;T, Comcast,
+Windstream, EarthLink, Century Link, etc.  
+<p> &#x2022; Demonstrated basic knowledge in the field of network transports such as VSAT, DSL and other
+internet transport technologies. 
+<p> &#x2022; Monitored and Analyzed Network availability charts such as ICMP latency, availability snapshots, and
+network usage charts/graphs.
+   <p style="font-weight: bold;"> Gateway Computers - Business Professional Technical Support Agent 2004 – 2008 
+<p> &#x2022; Provided support to end users/technicians relating to hardware and software, computer
+applications, LAN components and peripherals. Assisted clients/technicians with installation of Windows
+95, 98, XP, Linux, and Unix. . 
+<p> &#x2022; Assisted client with Installation of software &amp; hardware including memory, power supply,
+processors, &amp; hard drives. 
+<p> &#x2022; Worked with clients daily to enhance, optimize, and troubleshoot their use of the computer. 
+<p> &#x2022; Provide professional development in the use of computer hardware Cabling
+</body>
+  <p style="font-weight: bold;"> Education
+    <p> &#x2022; Miami Dade College, cloud computing 2022 - present
+    <p> &#x2022; Florida Career College, Computer Repair Diploma 2003-2004
+      <p> &#x2022; American Sr. High School, High School Diploma 1995-1998
+
+   
+
+</body>
+</html>
