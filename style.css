@@ -1,6 +1,42 @@
 body {
-  background-color: #06bcc1;
-}
-body {
-  color: black;
-}
+  background-color: rgba(255, 255, 128, .5);;
+ }
+ body {
+   color: black;
+ }
+ header {
+   text-align: center;
+ }
+ 
+ section {
+   margin: 1em 0;
+ }
+ 
+ h1, h2, h3 {
+   font-weight: bold;
+ }
+ 
+ h1 {
+   font-size: 1.5em;
+   margin-bottom: 1.5em;
+ }
+ 
+ h2, h3 {
+   font-size: 1.25em;
+   margin-bottom: 0.25em;
+ }
+ 
+ p {
+   font-size: 1em;
+   margin: 1;
+ }
+ 
+ ul {
+   list-style-type: none;
+   padding: 0;
+ }
+ 
+ li {
+   font-size: 1em;
+   margin: 0 0 0.5em 0;
+ }
